@@ -1,13 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://ugolek-restaurant.vercel.app/sitemap.xml
-
-# Блокировать дубли страниц с якорями
-Disallow: /*?*
-Disallow: /*#*
-
-# Разрешить индексацию основных страниц
-Allow: /$
-Allow: /#menu
-Allow: /#gallery
-Allow: /#contacts
