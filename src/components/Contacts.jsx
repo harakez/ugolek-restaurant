@@ -11,13 +11,20 @@ const Contacts = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl font-semibold text-beige-100 mb-4">Адрес</h3>
-              <p className="text-beige-200">г. Ташкент, Улица Примерная, 123</p>
+              <p className="text-beige-200">г. Ташкент, ул. Демонстрационная, 10</p>
             </div>
             
             <div>
               <h3 className="text-xl font-semibold text-beige-100 mb-4">Телефон</h3>
               <p className="text-beige-200">
-                <a href="tel:+998901234567" className="hover:text-orange-400 transition">+998 (90) 123-45-67</a>
+                <a href="tel:+998000000000" className="hover:text-orange-400 transition">+998 (XX) XXX-XX-XX</a>
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-semibold text-beige-100 mb-4">Email</h3>
+              <p className="text-beige-200">
+                <a href="mailto:info@demo-restaurant.uz" className="hover:text-orange-400 transition">info@demo-restaurant.uz</a>
               </p>
             </div>
             
@@ -30,13 +37,13 @@ const Contacts = () => {
             <div>
               <h3 className="text-xl font-semibold text-beige-100 mb-4">Социальные сети</h3>
               <div className="flex space-x-4">
-                <a href="https://instagram.com/ugolek.uz" className="text-beige-200 hover:text-orange-400 transition">
+                <a href="#" className="text-beige-200 hover:text-orange-400 transition">
                   Instagram
                 </a>
-                <a href="https://facebook.com" className="text-beige-200 hover:text-orange-400 transition">
+                <a href="#" className="text-beige-200 hover:text-orange-400 transition">
                   Facebook
                 </a>
-                <a href="https://telegram.org" className="text-beige-200 hover:text-orange-400 transition">
+                <a href="#" className="text-beige-200 hover:text-orange-400 transition">
                   Telegram
                 </a>
               </div>
@@ -46,11 +53,14 @@ const Contacts = () => {
           {/* Карта */}
           <div className="bg-gray-800 rounded-2xl overflow-hidden h-96">
             <iframe 
-              src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a8d8e8e8e8e8e8e8e8e8e8e8e8e8e8e&amp;source=constructor"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.726261058252!2d69.27787761542367!3d41.314981479271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b28f3316f73%3A0x1d47a3036e4f3a9a!2z0KHQutCy0LXRgNGBINCQ0LzQuNGAINCk0LXQvNC40YDQsA!5e0!3m2!1sru!2suz!4v1699884577123!5m2!1sru!2suz"
               width="100%" 
               height="100%" 
-              frameBorder="0"
-              title="Карта расположения ресторана Уголек"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Демо-локация: Сквер Амира Темура"
             ></iframe>
           </div>
         </div>

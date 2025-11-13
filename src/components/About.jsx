@@ -45,7 +45,7 @@ const About = () => {
             Наша Философия
           </h2>
           <p className={`text-lg max-w-3xl mx-auto leading-relaxed ${themeStyle.text}`}>
-            Уголек — это не просто ресторан, это место, где традиции встречаются с инновациями, 
+            Демо-ресторан — это не просто ресторан, это место, где традиции встречаются с инновациями, 
             а каждый прием пищи становится незабываемым событием
           </p>
         </motion.div>
@@ -61,7 +61,7 @@ const About = () => {
             <div>
               <h3 className={`text-3xl font-bold mb-4 ${themeStyle.accent}`}>Наша История</h3>
               <p className={`leading-relaxed ${themeStyle.text}`}>
-                Основанный в 2018 году, Уголек начал свой путь как небольшой гриль-бар. 
+                Основанный в 2018 году, Демо-ресторан начал свой путь как небольшой гриль-бар. 
                 Сегодня это премиальный ресторан авторской кухни, где мы сочетаем лучшие 
                 традиции приготовления на огне с современными гастрономическими трендами.
               </p>
@@ -87,12 +87,12 @@ const About = () => {
             <div className={`relative rounded-3xl overflow-hidden ${themeStyle.shadow}`}>
               <img 
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="Интерьер ресторана Уголек"
+                alt="Интерьер Демо-ресторана"
                 className="w-full h-96 object-cover"
               />
               <div className={`absolute inset-0 ${themeStyle.overlay}`}></div>
               <div className="absolute bottom-6 left-6 text-white">
-                <h3 className="text-2xl font-bold">Ресторан Уголек</h3>
+                <h3 className="text-2xl font-bold">Демо-ресторан</h3>
                 <p className="text-gray-200">Уникальное лофт-пространство в центре города</p>
               </div>
             </div>
@@ -113,7 +113,7 @@ const About = () => {
                 <div className="w-24 h-24 rounded-2xl overflow-hidden border-2 border-transparent hover:border-orange-400 transition-all duration-300">
                   <img 
                     src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80"
-                    alt="Шеф-повар Уголька"
+                    alt="Шеф-повар DEMO RESTAURANT"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -125,7 +125,7 @@ const About = () => {
                 <p className={`font-semibold mb-3 ${themeStyle.secondary}`}>Главный шеф-повар</p>
                 <p className={`text-sm leading-relaxed ${themeStyle.text}`}>
                   "Для меня кулинария — это искусство. Каждое блюдо должно рассказывать 
-                  историю и дарить эмоции. В Угольке мы создаем не просто еду, а настоящие 
+                  историю и дарить эмоции. В Демо-ресторане мы создаем не просто еду, а настоящие 
                   гастрономические впечатления."
                 </p>
               </div>
@@ -151,7 +151,7 @@ const About = () => {
                 <p className={`font-semibold mb-3 ${themeStyle.secondary}`}>Управляющий директор</p>
                 <p className={`text-sm leading-relaxed ${themeStyle.text}`}>
                   "Наша цель — создать пространство, где гости чувствуют себя как дома, 
-                  но при этом получают обслуживание премиум-класса. Каждая деталь в Угольке 
+                  но при этом получают обслуживание премиум-класса. Каждая деталь в Демо-ресторан 
                   продумана для вашего комфорта."
                 </p>
               </div>

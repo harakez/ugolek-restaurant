@@ -36,7 +36,7 @@ const Navbar = ({ onReserveClick }) => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          UGOLEK
+          DEMO RESTAURANT
         </motion.div>
 
         {/* Десктопное меню */}
