@@ -7,14 +7,32 @@
     
     <!-- SEO теги -->
     <title>Demo Restaurant - Современный сайт ресторана</title>
-    <meta name="description" content="Демо сайт современного ресторана. Пример адаптивного дизайна и функциональности">
-    <meta name="keywords" content="демо ресторан, сайт ресторана, бронирование столов">
+    <meta name="description" content="Демо сайт современного ресторана">
     
-    <!-- Open Graph -->
-    <meta property="og:title" content="Demo Restaurant - Современный сайт">
-    <meta property="og:description" content="Демо сайт для современного ресторана">
-    <meta property="og:url" content="https://resto-demo.vercel.app/">
-    <meta property="og:type" content="website">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Конфигурация Tailwind -->
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'gray': {
+                900: '#1a1a1a',
+                800: '#2d2d2d',
+              },
+              'orange': {
+                400: '#fb923c',
+                500: '#f97316', 
+                600: '#ea580c',
+              }
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
